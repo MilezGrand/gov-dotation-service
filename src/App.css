@@ -1,0 +1,93 @@
+.vertical-menu {
+  width: 400px;
+  height: 90.5vh;
+  overflow-y: auto;
+
+}
+
+.NavBar {
+  padding:150px;
+}
+
+.NavLink {
+  margin-left:20px;
+}
+
+span {
+  float:right;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  padding: 4px;
+}
+.Отклонено {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.Одобрено {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+}
+
+.Обрабатывается {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+
+.Создано {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+
+.rightContainer{
+  float: right;
+  width: 60%;
+
+}
+.title{
+  font-size: 13px;
+  color: #41464b;
+}
+.leftContainer {
+  float: left;
+  
+}
+
+.infoBlock {
+  width: 100%;
+  border-color: #d3d6d8;
+  border: 1px solid;
+  border-radius: .25rem;
+  padding: 5px;
+}
+
+.selectList {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+
+}
+
+.sendBtn{
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.sendBtn Button{
+  margin: 0 auto;
+  margin-left: 115px;
+
+}

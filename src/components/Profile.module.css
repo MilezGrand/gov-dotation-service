@@ -1,0 +1,47 @@
+.horizontalContainer {
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 12px;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    ". . ."; 
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.verticalMenu {
+    overflow: y;
+}
+
+.issuesList {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.statusHistory {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sendIssue {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 11px;
+}
+
+.commentBlock {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 15px;
+}
