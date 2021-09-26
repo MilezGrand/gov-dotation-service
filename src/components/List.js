@@ -1,19 +1,8 @@
 import React, { Component } from 'react';
 import { ListGroup, Button, Form  } from 'react-bootstrap';
 import { getall, getBlock, createBlock } from '../state';
-import { rerenderEntireTree } from "../render";
 
 let name;
-
-function UserGreeting(props) {
-    return <h1>Welcome back!</h1>;
-}
-  
-function GuestGreeting(props) {
-    return <h1>Please sign up.</h1>;
-}
-
-
 
 const getSelected = (e)=>{
    
@@ -23,7 +12,10 @@ const getSelected = (e)=>{
 }
 
 const timeConverter =(t)=> {
-    return new Date(t/1000).toUTCString()
+    var unixetime = Math.floor(t / 1000000)
+    let d = new Date(unixetime)
+    return d.toUTCString()
+
 }
 
 class List extends Component {
